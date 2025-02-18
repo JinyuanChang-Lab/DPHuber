@@ -9,11 +9,11 @@ characterize the dependence of the non-asymptotic convergence rate on the moment
 
 * **final_util.py**: The "final_util.py" file contains the Python implementation of Algorithms 1, 2, and 3 from the paper.
 
-* **final_lowdim.ipynb**: The "final_lowdim.ipynb" file contains the notebook for Section 5.1 (numerical studies in the low-dimensional setting) of the paper, including data generation and multiple repeated experiments.
+* **final_lowdim.ipynb**: The notebook file "final_lowdim.ipynb" contains the codes for Section 5.1 (numerical studies in the low-dimensional setting) of the paper, including data generation and multiple repeated experiments.
 
-* **final_highdim.ipynb**: The "final_highdim.ipynb" file contains the notebook for Section 5.2 (numerical studies in the high-dimensional setting) of the paper, including data generation and multiple repeated experiments.
+* **final_highdim.ipynb**: The notebook file "final_highdim.ipynb" contains the codes for Section 5.2 (numerical studies in the high-dimensional setting) of the paper, including data generation and multiple repeated experiments.
 
-* **final_realdata.ipynb**: The "final_realdata.ipynb" file contains the notebook for Section 6 (real data analysis) of the paper, including both low-dimensional and high-dimensional real data analysis.
+* **final_realdata.ipynb**: The notebook file "final_realdata.ipynb" contains the codes for Section 6 (real data analysis) of the paper, including both low-dimensional and high-dimensional real data analysis.
 
 * **realdata**: The "realdata" folder contains the real data used in "final_realdata.ipynb".
 
