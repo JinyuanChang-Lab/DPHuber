@@ -1,0 +1,294 @@
+（125个预测属性，4个非预测属性，18个潜在目标属性）
+
+communityname: 社区名称 - 非预测属性 - 仅供参考（字符串）
+
+state: 美国州名（用2个字母的邮政缩写表示）（名义变量）
+
+countyCode: 县的数值代码 - 非预测属性，且有许多缺失值（数值）
+
+communityCode: 社区的数值代码 - 非预测属性，且有许多缺失值（数值）
+
+fold: 非随机10折交叉验证中的折数编号，可能对调试和成对测试有用 - 非预测属性（数值 - 整数）
+
+population: 社区人口数量（数值 - 预期为整数）
+
+householdsize: 平均每户人数（数值 - 小数）
+
+racepctblack: 非裔美国人占总人口的百分比（数值 - 小数）
+
+racePctWhite: 白人占总人口的百分比（数值 - 小数）
+
+racePctAsian: 亚裔人口占总人口的百分比（数值 - 小数）
+
+racePctHisp: 西班牙裔人口占总人口的百分比（数值 - 小数）
+
+agePct12t21: 12-21岁人口占总人口的百分比（数值 - 小数）
+
+agePct12t29: 12-29岁人口占总人口的百分比（数值 - 小数）
+
+agePct16t24: 16-24岁人口占总人口的百分比（数值 - 小数）
+
+agePct65up: 65岁及以上人口占总人口的百分比（数值 - 小数）
+
+numbUrban: 居住在城市地区的人口数量（数值 - 预期为整数）
+
+pctUrban: 居住在城市地区的人口百分比（数值 - 小数）
+
+medIncome: 家庭收入中位数（数值 - 可能为整数）
+
+pctWWage: 1989年有工资或薪金收入的家庭百分比（数值 - 小数）
+
+pctWFarmSelf: 1989年有农场或自雇收入的家庭百分比（数值 - 小数）
+
+pctWInvInc: 1989年有投资/租金收入的家庭百分比（数值 - 小数）
+
+pctWSocSec: 1989年有社会保障收入的家庭百分比（数值 - 小数）
+
+pctWPubAsst: 1989年有公共援助收入的家庭百分比（数值 - 小数）
+
+pctWRetire: 1989年有退休收入的家庭百分比（数值 - 小数）
+
+medFamInc: 家庭收入中位数（与非家庭住户的家庭收入不同）（数值 - 可能为整数）
+
+perCapInc: 人均收入（数值 - 小数）
+
+whitePerCap: 白人群体的人均收入（数值 - 小数）
+
+blackPerCap: 非裔美国人人均收入（数值 - 小数）
+
+indianPerCap: 美洲原住人人均收入（数值 - 小数）
+
+AsianPerCap: 亚裔人群人均收入（数值 - 小数）
+
+OtherPerCap: 其他种族人群人均收入（数值 - 小数）
+
+HispPerCap: 西班牙裔人均收入（数值 - 小数）
+
+NumUnderPov: 贫困线以下的人数（数值 - 预期为整数）
+
+PctPopUnderPov: 贫困线以下人口的百分比（数值 - 小数）
+
+PctLess9thGrade: 25岁及以上且教育水平低于9年级的人口百分比（数值 - 小数）
+
+PctNotHSGrad: 25岁及以上未高中毕业的人口百分比（数值 - 小数）
+
+PctBSorMore: 25岁及以上拥有学士学位或更高学历的人口百分比（数值 - 小数）
+
+PctUnemployed: 16岁及以上劳动人口中的失业率（数值 - 小数）
+
+PctEmploy: 16岁及以上就业人口的百分比（数值 - 小数）
+
+PctEmplManu: 16岁及以上在制造业就业人口的百分比（数值 - 小数）
+
+PctEmplProfServ: 16岁及以上在专业服务业就业人口的百分比（数值 - 小数）
+
+PctOccupManu: 16岁及以上在制造业就业人口的百分比（数值 - 小数）
+
+PctOccupMgmtProf: 16岁及以上在管理或专业职业中就业人口的百分比（数值 - 小数）
+
+MalePctDivorce: 离婚男性的百分比（数值 - 小数）
+
+MalePctNevMarr: 从未结婚男性的百分比（数值 - 小数）
+
+FemalePctDiv: 离婚女性的百分比（数值 - 小数）
+
+TotalPctDiv: 离婚人口的总百分比（数值 - 小数）
+
+PersPerFam: 每个家庭的平均人数（数值 - 小数）
+
+PctFam2Par: 两个父母抚养孩子的家庭百分比（数值 - 小数）
+
+PctKids2Par: 在家庭住房中有两个父母的孩子百分比（数值 - 小数）
+
+PctYoungKids2Par: 有两个父母的4岁及以下孩子的百分比（数值 - 小数）
+
+PctTeen2Par: 有两个父母的12-17岁孩子的百分比（数值 - 小数）
+
+PctWorkMomYoungKids: 6岁及以下孩子的母亲在劳动力中的百分比（数值 - 小数）
+
+PctWorkMom: 18岁以下孩子的母亲在劳动力中的百分比（数值 - 小数）
+
+NumKidsBornNeverMar: 未婚生育的孩子数量（数值 - 预期为整数）
+
+PctKidsBornNeverMar: 未婚生育孩子的百分比（数值 - 小数）
+
+NumImmig: 外国出生的总人数（数值 - 预期为整数）
+
+PctImmigRecent: 过去3年内移民的百分比（数值 - 小数）
+
+PctImmigRec5: 过去5年内移民的百分比（数值 - 小数）
+
+PctImmigRec8: 过去8年内移民的百分比（数值 - 小数）
+
+PctImmigRec10: 过去10年内移民的百分比（数值 - 小数）
+
+PctRecentImmig: 过去3年内移民占总人口的百分比（数值 - 小数）
+
+PctRecImmig5: 过去5年内移民占总人口的百分比（数值 - 小数）
+
+PctRecImmig8: 过去8年内移民占总人口的百分比（数值 - 小数）
+
+PctRecImmig10: 过去10年内移民占总人口的百分比（数值 - 小数）
+
+PctSpeakEnglOnly: 仅讲英语人口的百分比（数值 - 小数）
+
+PctNotSpeakEnglWell: 英语能力不强的人口百分比（数值 - 小数）
+
+PctLargHouseFam: 大型家庭户的百分比（6人或更多）（数值 - 小数）
+
+PctLargHouseOccup: 大型居住户的百分比（6人或更多）（数值 - 小数）
+
+PersPerOccupHous: 每户平均人数（数值 - 小数）
+
+PersPerOwnOccHous: 自有住房的每户平均人数（数值 - 小数）
+
+PersPerRentOccHous: 租赁住房的每户平均人数（数值 - 小数）
+
+PctPersOwnOccup: 自有住房中的人口百分比（数值 - 小数）
+PctPersDenseHous: 密集住房中居住的人口百分比（每个房间超过1人）（数值 - 小数）
+
+PctHousLess3BR: 卧室少于3间的住房单元百分比（数值 - 小数）
+
+MedNumBR: 卧室数量中位数（数值 - 小数）
+
+HousVacant: 空置房屋数量（数值 - 预期为整数）
+
+PctHousOccup: 已占用住房的百分比（数值 - 小数）
+
+PctHousOwnOcc: 自有住房的百分比（数值 - 小数）
+
+PctVacantBoarded: 被封闭的空置房屋百分比（数值 - 小数）
+
+PctVacMore6Mos: 空置超过6个月的房屋百分比（数值 - 小数）
+
+MedYrHousBuilt: 住房建造年份的中位数（数值 - 可能为整数）
+
+PctHousNoPhone: 无电话的已占用住房单元百分比（在1990年，这种情况很少见）（数值 - 小数）
+
+PctWOFullPlumb: 无完整管道设施的住房百分比（数值 - 小数）
+
+OwnOccLowQuart: 自有住房的下四分位值（数值 - 小数）
+
+OwnOccMedVal: 自有住房的中位值（数值 - 小数）
+
+OwnOccHiQuart: 自有住房的上四分位值（数值 - 小数）
+
+OwnOccQrange: 自有住房的上四分位值与下四分位值之间的差值（数值 - 小数）
+
+RentLowQ: 租赁住房的下四分位租金（数值 - 小数）
+
+RentMedian: 租赁住房的中位租金（普查变量 H32B，来源于文件 STF1A）（数值 - 小数）
+
+RentHighQ: 租赁住房的上四分位租金（数值 - 小数）
+
+RentQrange: 租赁住房的上四分位租金与下四分位租金之间的差值（数值 - 小数）
+
+MedRent: 总租金中位数（普查变量 H43A，来源于文件 STF3A，包括公用设施）（数值 - 小数）
+
+MedRentPctHousInc: 总租金占家庭收入的百分比中位数（数值 - 小数）
+
+MedOwnCostPctInc: 有抵押贷款的自有住房费用占家庭收入的百分比中位数（数值 - 小数）
+
+MedOwnCostPctIncNoMtg: 无抵押贷款的自有住房费用占家庭收入的百分比中位数（数值 - 小数）
+
+NumInShelters: 无家可归者收容所中的人数（数值 - 预期为整数）
+
+NumStreet: 街道上统计的无家可归者人数（数值 - 预期为整数）
+
+PctForeignBorn: 外国出生人口的百分比（数值 - 小数）
+
+PctBornSameState: 出生在当前居住州的人口百分比（数值 - 小数）
+
+PctSameHouse85: 自1985年以来居住在同一房屋中的人口百分比（5年前）（数值 - 小数）
+
+PctSameCity85: 自1985年以来居住在同一城市中的人口百分比（5年前）（数值 - 小数）
+
+PctSameState85: 自1985年以来居住在同一州中的人口百分比（5年前）（数值 - 小数）
+
+LemasSwornFT: 全职宣誓警察人数（数值 - 预期为整数）
+
+LemasSwFTPerPop: 每10万人中的全职宣誓警察人数（数值 - 小数）
+
+LemasSwFTFieldOps: 现场操作中的全职宣誓警察人数（与行政等工作相对）（数值 - 预期为整数）
+
+LemasSwFTFieldPerPop: 现场操作中的全职宣誓警察每10万人中的人数（与行政等工作相对）（数值 - 小数）
+
+LemasTotalReq: 警察总请求数（数值 - 预期为整数）
+
+LemasTotReqPerPop: 每10万人中的警察请求总数（数值 - 小数）
+
+PolicReqPerOffic: 每个警察的警察请求总数（数值 - 小数）
+
+PolicPerPop: 每10万人中的警察人数（数值 - 小数）
+
+RacialMatchCommPol: 社区与警察力量之间的种族匹配度。高值表示社区和警察力量中的种族比例相似（数值 - 小数）
+
+PctPolicWhite: 白人警察的百分比（数值 - 小数）
+
+PctPolicBlack: 非裔美国人警察的百分比（数值 - 小数）
+
+PctPolicHisp: 西班牙裔警察的百分比（数值 - 小数）
+
+PctPolicAsian: 亚裔警察的百分比（数值 - 小数）
+
+PctPolicMinor: 各类少数族裔警察的百分比（数值 - 小数）
+
+OfficAssgnDrugUnits: 指派到特殊毒品单位的警察人数（数值 - 预期为整数）
+
+NumKindsDrugsSeiz: 缉获的不同种类毒品数量（数值 - 预期为整数）
+
+PolicAveOTWorked: 警察平均加班时数（数值 - 小数）
+
+LandArea: 土地面积（平方英里）（数值 - 小数）
+
+PopDens: 人口密度（每平方英里的人口数）（数值 - 小数）
+
+PctUsePubTrans: 使用公共交通通勤的人口百分比（数值 - 小数）
+
+PolicCars: 警车数量（数值 - 预期为整数）
+
+PolicOperBudg: 警察运营预算（数值 - 可能为整数）
+
+LemasPctPolicOnPatr: 在巡逻中的全职宣誓警察的百分比（数值 - 小数）
+
+LemasGangUnitDeploy: 派遣的帮派单位（数值 - 整数 - 但实际上是名义变量 - 0表示没有，10表示有，5表示兼职）
+
+LemasPctOfficDrugUn: 分配到毒品单位的警察的百分比（数值 - 小数）
+
+PolicBudgPerPop: 每个人口的警察运营预算（数值 - 小数）
+
+murders: 1995年的谋杀案数量（数值 - 预期为整数）潜在目标属性（预测）
+
+murdPerPop: 每10万人中的谋杀案数量（数值 - 小数）潜在目标属性（预测）
+
+rapes: 1995年的强奸案数量（数值 - 预期为整数）潜在目标属性（预测）
+
+rapesPerPop: 每10万人中的强奸案数量（数值 - 小数）潜在目标属性（预测）
+
+robberies: 1995年的抢劫案数量（数值 - 预期为整数）潜在目标属性（预测）
+
+robbbPerPop: 每10万人中的抢劫案数量（数值 - 小数）潜在目标属性（预测）
+
+assaults: 1995年的攻击案数量（数值 - 预期为整数）潜在目标属性（预测）
+
+assaultPerPop: 每10万人中的攻击案数量（数值 - 小数）潜在目标属性（预测）
+
+burglaries: 1995年的入室盗窃案数量（数值 - 预期为整数）潜在目标属性（预测）
+
+burglPerPop: 每10万人中的入室盗窃案数量（数值 - 小数）潜在目标属性（预测）
+
+larcenies: 1995年的盗窃案数量（数值 - 预期为整数）潜在目标属性（预测）
+
+larcPerPop: 每10万人中的盗窃案数量（数值 - 小数）潜在目标属性（预测）
+
+autoTheft: 1995年的汽车盗窃案数量（数值 - 预期为整数）潜在目标属性（预测）
+
+autoTheftPerPop: 每10万人中的汽车盗窃案数量（数值 - 小数）潜在目标属性（预测）
+
+arsons: 1995年的纵火案数量（数值 - 预期为整数）潜在目标属性（预测）
+
+arsonsPerPop: 每10万人中的纵火案数量（数值 - 小数）潜在目标属性（预测）
+
+ViolentCrimesPerPop: 每10万人中的暴力犯罪总数（数值 - 小数）目标属性（预测）
+
+nonViolPerPop: 每10万人中的非暴力犯罪总数（数值 - 小数）潜在目标属性（预测）
