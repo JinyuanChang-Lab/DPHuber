@@ -266,7 +266,7 @@ class Huber():
     
 
     def noisygd_highdim(self, s, lr, T,  mu, delta, robust_low1,robust_low2,  robust_high1=5, robust_high2=5,
-                    beta0=np.array([]), B_low=1,B_high=1, 
+                    beta0=np.array([]), B_high=1, 
                     standardize=True, adjust=True):
         '''
         Perform noisy gradient descent for high-dimensional sparse regression.
@@ -316,10 +316,9 @@ class Huber():
         tau_low2 = mad(res1)*robust_low2
         tau_high1 = mad(res1)*robust_high1  ## robust scale 
         tau_high2 = mad(res2)*robust_high2    
-
-        sigma_low = 2*tau_low2*B_low*( T*( (2*np.log(1.25*T/delta))**0.5 ) )/(mu*n)
+ 
         count = 0
-        
+        lambda_scale=2*(lr/n)*B_high*tau_high2
         while count < T: 
             diff1 = lr*  np.mean(huber_score(res1, tau_low1))  
             beta1_itcp += diff1 
@@ -329,11 +328,11 @@ class Huber():
             res1 = self.Y-X @ beta1 
             beta_seq1[:, count+1] = np.copy(beta1)
             
-            diff2 = lr* (np.mean(huber_score(res2, tau_low2)) \
-                             + sigma_low * rgt.standard_normal(1))
+            diff2 = lr* (np.mean(huber_score(res2, tau_low2)) )\
+                             + np.random.laplace(0, lambda_scale*2*np.sqrt(5* s*np.log(1/delta))/mu) 
             beta2_itcp += diff2
             beta2_rest += (lr/n) * (trun_X1.T @ huber_score(res2, tau_high2))
-            beta2_rest =  noisyht(beta2_rest, s=s,mu=mu/T, delta=delta/T, lambda_scale=2*(lr/n)*B_high*tau_high2 )
+            beta2_rest =  noisyht(beta2_rest, s=s,mu=mu/T, delta=delta/T, lambda_scale=lambda_scale )
             beta2 = np.hstack((beta2_itcp, beta2_rest))
             res2 = self.Y-X @ beta2 
             beta_seq2[:, count+1] = np.copy(beta2) 
