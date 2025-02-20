@@ -329,7 +329,7 @@ class Huber():
             beta_seq1[:, count+1] = np.copy(beta1)
             
             diff2 = lr* (np.mean(huber_score(res2, tau_low2)) )\
-                             + np.random.laplace(0, lambda_scale*2*np.sqrt(5* s*np.log(1/delta))/mu) 
+                             + np.random.laplace(0, lambda_scale*T*2*np.sqrt(5* s*np.log(T/delta))/mu) 
             beta2_itcp += diff2
             beta2_rest += (lr/n) * (trun_X1.T @ huber_score(res2, tau_high2))
             beta2_rest =  noisyht(beta2_rest, s=s,mu=mu/T, delta=delta/T, lambda_scale=lambda_scale )
